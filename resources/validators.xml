@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validators>
+    <validator name="required" class="com.loftor.validation.validators.RequiredValidator"/>
+    <validator name="match" class="com.loftor.validation.validators.MatchValidator"/>
+    <validator name="regex" class="com.loftor.validation.validators.RegexValidator"/>
+    <validator name="length" class="com.loftor.validation.validators.LengthValidator"/>
+    <validator name="between" class="com.loftor.validation.validators.BetweenValidator"/>
+    <validator name="date" class="com.loftor.validation.validators.DateValidator"/>
+    <validator name="equals" class="com.loftor.validation.validators.EqualsValidator"/>
+    <validator name="bean" useSpring="true" class="com.loftor.validation.validators.BeanValidator"/>
+</validators>
